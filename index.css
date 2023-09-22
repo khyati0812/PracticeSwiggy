@@ -1,0 +1,99 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.img
+{
+    width:150px;
+    height:150px;
+    
+    display: inline;
+    transform: translateX(-8rem);
+    border-radius: 50%;;
+}
+.main-cont
+{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+   margin-left:3rem;
+   margin-right:3rem;
+   border:2px solid white;
+   
+    
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    gap: 1.5em;
+    font-size: 2rem;
+    justify-content:flex-end;
+    padding:2rem;
+}
+.Body
+{
+    padding:2rem;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+   /* gap:1.2rem; */
+}
+.imge
+{
+    width:250px;
+    height:200px;
+}
+.border
+{
+    border:2px solid white;
+    padding:1.3rem;
+    margin-top:2rem;
+}
+.border:hover
+{
+    border:2px solid gold;
+    transform:scale(8rem);
+    cursor: pointer;
+    
+}
+.Rest-card
+{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:1rem;
+margin-left:3rem;
+margin-right:3rem;
+}
+.shimmer-cards
+{
+    width:200px;
+    height:200px;
+    background-color: grey;
+    margin:25px;
+    color:white;
+    position:relative;
+  left:28px;
+}
+.login
+{
+    cursor:pointer;
+    padding:0 20px;
+}
+.shimmer-container
+{
+   display:flex;
+   flex-wrap: wrap;
+   position:absolute;
+    
+}
+.filter,.search
+{
+    display:flex;
+}
